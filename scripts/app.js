@@ -5,4 +5,8 @@
 	
 	console.log("App Started...");
 	
+	var firstParagraph;
+	
+	firstParagraph = document.getElementById()
+	
 })();
