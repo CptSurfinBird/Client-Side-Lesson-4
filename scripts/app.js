@@ -5,8 +5,18 @@
 	
 	console.log("App Started...");
 	
-	var firstParagraph;
+	// declared a named function <- use for Tom's class
+	function replaceFirstParagraph() {
+		console.log("inside replaceFirstParagraph function");
+		var firstParagraph;
+		
+		firstParagraph = document.getElementById("firstParagraph");
+		
+		firstParagraph.innerHTML = "My New Paragraph Data";
 	
-	firstParagraph = document.getElementById()
+	}
+	
+	// call the replaceFirstParagraph function
+	replaceFirstParagraph();
 	
 })();
